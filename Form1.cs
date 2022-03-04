@@ -22,5 +22,10 @@ namespace TP_KPL_MOD2
         {
 
         }
+
+        private void TombolSubmitNama_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.label1.Text = "Halo " + this.TextBoxInput.Text;
+        }
     }
 }

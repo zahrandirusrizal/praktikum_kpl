@@ -43,12 +43,13 @@
             this.TombolSubmitNama.Text = "Submit";
             this.TombolSubmitNama.UseVisualStyleBackColor = true;
             this.TombolSubmitNama.Click += new System.EventHandler(this.button1_Click);
+            this.TombolSubmitNama.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TombolSubmitNama_MouseClick);
             // 
             // TextBoxInput
             // 
             this.TextBoxInput.Location = new System.Drawing.Point(283, 120);
             this.TextBoxInput.Name = "TextBoxInput";
-            this.TextBoxInput.PlaceholderText = "Input Text";
+            this.TextBoxInput.PlaceholderText = "Masukkan namamu disini";
             this.TextBoxInput.Size = new System.Drawing.Size(199, 27);
             this.TextBoxInput.TabIndex = 1;
             this.TextBoxInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -61,7 +62,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 20);
             this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.label1.Text = "Nanti ada sapa keluar dari sini :)";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
